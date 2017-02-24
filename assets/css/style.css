@@ -1,0 +1,176 @@
+body {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	line-height: 20px;
+}
+
+h1 {
+	padding: 20px;
+	background: #4aaaa5;
+	color: white;
+	float: left;
+	margin-left: 100px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+h2 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+.about {
+	color: #777777;
+	float: right;
+	padding-top: 40px;
+	margin-right: 10px;
+	margin-left: 0px;
+
+}
+
+.portfolio {
+	color: #777777;
+	float: right;
+	padding-top: 40px;
+	margin-right: 10px;
+
+}
+
+.contact {
+	color: #777777;
+	float: right;
+	padding-top: 40px;
+	margin-right: 10px;
+}
+
+.clear {
+	clear: both;
+}
+
+.background {
+	background: #dddddd;
+	border-top-color: black;
+	border-top-width: 2px;
+	border-top-style: solid;
+
+}
+
+.about-me {
+	color: #4aaaa5;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	border-bottom-color: #dddddd;
+	border-bottom-width: 3px;
+	border-bottom-style: solid;
+}
+
+.content {
+	background: #ffffff;
+	width: 50%;
+	margin-left: 100px;
+	float: left;
+	margin-right: 40px;
+	border-width: 2px;
+	border-color: black;
+	border-style: solid;
+	margin-top: 75px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-bottom: 75px;
+
+}
+
+.kemba {
+	float: left;
+	height: 250px;
+	width:  250px;
+	margin-right: 50px;
+	margin-bottom: 50px;
+}
+
+.steve-smith {
+	float: left;
+	height: 250px;
+	width: 250px;
+	/*margin-right: 100px;*/
+	margin-bottom: 50px;
+}
+
+.cam-newton{
+	float: left;
+	height: 250px;
+	width: 250px;
+	margin-right: 50px;
+	margin-bottom: 50px;
+}
+
+.nicolas-cage {
+	float: left;
+	height: 250px;
+	width: 250px;
+	margin-bottom: 50px;
+	/*margin-right: 100px;*/
+}
+
+.bart-simpson {
+	float: left;
+	height: 250px;
+	width: 250px;
+	margin-bottom: 100px;
+	margin-right: 50px;
+}
+
+.box {
+	width: 75%;
+	padding-bottom: 200px;
+	margin-bottom: 10px;
+
+}
+
+.portfolio-image {
+	float: left;
+	margin-right: 5px;
+	height: 200px;
+	width: 200px;
+}
+
+.sidebar {
+	background: #ffffff;
+	width: 200px;
+	height: 200px;
+	float: left;
+	color: #4aaaa5;
+	border-width: 2px;
+	border-color: black;
+	border-style: solid;
+	text-align: center;
+	margin-top: 75px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	overflow: auto;
+}
+
+.linkedin {
+	height: 50px;
+	width: 50px;
+	margin-left: 10px;
+}
+
+.github {
+	height: 50px;
+	width: 50px;
+	margin-left: 10px;
+}
+
+.stackoverflow {
+	height: 50px;
+	width: 50px;
+	margin-left: 10px;
+}
+
+
+.footer {
+	clear: both;
+	text-align: center;
+	background-color: #666666;
+	border-top-color: #4aaaa5;
+	border-top-width: 10px;
+	border-top-style: solid;
+	padding: 20px;
+}
