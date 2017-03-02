@@ -174,3 +174,60 @@ h2 {
 	border-top-style: solid;
 	padding: 20px;
 }
+
+@media screen and (max-width: 980px) {
+
+}
+
+@media screen and (max-width: 768px) {
+	.sidebar {
+		margin-bottom: 20px;
+		margin-left: 20px;
+	
+	}
+	.content {
+		margin-bottom: 20px;
+		width: 90%;
+		margin-left: 20px;
+	}
+
+	h1 {
+		margin-left: 20px;
+	}
+
+}
+
+@media screen and (max-width: 640px) {
+	h1 {
+		margin-left: 0px;
+		margin-right: 0px;
+		text-align: center;
+		width: 100%
+		
+		
+	}
+
+	.contact,
+	.portfolio,
+	.about {
+		width: 33.3%;
+		margin-right: 0px;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		text-align: center;
+	}
+
+	.content {
+		width: 80%;
+		margin-bottom: 0px;
+		margin-top: 25px;
+		
+	}
+
+	.portfolio-image {
+		width: 100%;
+		margin-bottom: 20px;		
+	}
+}
+
+
