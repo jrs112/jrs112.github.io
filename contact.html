@@ -1,61 +1,87 @@
 <!DOCTYPE html>
 <html>
 <head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>John Ryan Sander</title>
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
-	<meta name="viewport" content="width=device=width, initial-scale=1">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+
+<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 <body>
-	<section>
-	  <h1>John Ryan Sander</h1>
+<div class="container-fluid">
 
-	 <div class="contact">
-	   <a href="contact.html">Contact</a>
-	 </div>
+	<div class="row firstRow">
+		<div class="col-md-12">
+  			<h1>John Ryan Sander</h1>
+        	<div class="about">
+        		<a href="index.html" class="btn btn-primary btn-sm active about" role="button">About</a>
+        		<a href="portfolio.html" class="btn btn-primary btn-sm active portfolio" role="button">Portfolio</a>
+        		<a href="contact.html" class="btn btn-primary btn-sm active contact" role="button">Contact</a>
+            </div>
+    	</div>
+	</div>
+</div>
+<div class="container">
 
-     <div class="portfolio">
-		  <a href="portfolio.html">Portfolio</a>
-	 </div>
-
-	 <div class="about">
-		  <a href="index.html">About</a>
-		</div>
-	<div class="clear"></div>
-	</section>
 <div class="background">
-<section class="content">
+	<div class ="row">
+		<div class="col-md-8">
+            <section class="content contactContent">
 
-	<h2 class="about-me">Contact Me</h2>
-	<h3>Name</h3>
-	<div><input type="text" placeholder="Joe Smith">
+            	<h2 class="about-me">Contact Me</h2>
+            	<h3>Name</h3>
+            	<div><input type="text" placeholder="Joe Smith">
+            	</div>
+            	<h3>E-mail</h3>
+            	<div><input type="text" placeholder="example@gmail.com">
+            	</div>
+            	<h3>Message</h3>
+            	<div ><textarea class="form-control" rows="10" placeholder="Type message here"></textarea>
+            	</div>
+            	<button id="contactSubmit" type="submit">Submit</button>
+
+             </section>
+		</div>
+
+
+  		<div class="col-md-4">
+		  <div class="sidebar">
+			  <h3>Connect with Me</h3>
+			    <a href="https://www.linkedin.com/in/john-ryan-sander-600a813a" target="_blank">
+			  	  <img class="linkedin" src="assets/images/linkedin.png" alt="LinkedIn"></a>
+
+			  	<a href="https://github.com/jrs112" target="_blank">
+			  	  <img class="github" src="assets/images/github.png" alt="Github">
+			  	</a>
+
+			  	<a href="http://stackoverflow.com/users/7515901/jsander112?tab=profile" target="_blank">
+			  	  <img class="stackoverflow" src="assets/images/stackoverflow.png" alt="stackoverflow">
+			  	 </a>
+
+   		   </div>
+   		 </div>
+
 	</div>
-	<h3>E-mail</h3>
-	<div><input type="text" placeholder="example@gmail.com">
+</div>
+</div>
+<div class="container-fluid">
+		<div class="row footer">
+			<div class="col-md-12">
+				<h4>Copyright 2017 John Ryan Sander</h4>
+			</div>
+		</div>
 	</div>
-	<h3>Message</h3>
-	<div><input type="text" placeholder="Type Your Message Here" class="box">
-	</div>
-	<button type="submit">Submit</button>
-
- </section>
-	
-  <div class="sidebar">
-	  <h3>Connect with Me</h3>
-	    <a href="https://www.linkedin.com/in/john-ryan-sander-600a813a">
-	  	  <img class="linkedin" src="assets/images/linkedin.png" alt="LinkedIn"></a>
-
-	  	<a href="https://github.com/jrs112">
-	  	  <img class="github" src="assets/images/github.png" alt="Github">
-	  	</a>
-
-	  	<a href="http://stackoverflow.com/users/7515901/jsander112?tab=profile">
-	  	  <img class="stackoverflow" src="assets/images/stackoverflow.png" alt="stackoverflow">
-	  	 </a>
-
-   </div>
-	
-	<footer class="footer">Copyright 2017 John Ryan Sander</footer>
-	</div>
+<script type="text/javascript" src="assets/javascript/portfolio.js"></script>
 </body>
 
 </html>
