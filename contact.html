@@ -12,14 +12,17 @@
 
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-
 <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
-
 <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+<script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init("user_FkTloyQwmS9whWwrs2RGS");
+   })();
+</script>
 </head>
 <body>
 <div class="container-fluid">
-
 	<div class="row firstRow">
 		<div class="col-md-12">
   			<h1>John Ryan Sander</h1>
@@ -39,38 +42,34 @@
             <section class="content contactContent">
 
             	<h2 class="about-me">Contact Me</h2>
-            	<h3>Name</h3>
-            	<div><input type="text" placeholder="Joe Smith">
-            	</div>
-            	<h3>E-mail</h3>
-            	<div><input type="text" placeholder="example@gmail.com">
-            	</div>
-            	<h3>Message</h3>
-            	<div ><textarea class="form-control" rows="10" placeholder="Type message here"></textarea>
-            	</div>
-            	<button id="contactSubmit" type="submit">Submit</button>
-
+                <form id="myform" method="post">
+                	<label><h3>Name</h3></label>
+                	<div><input type="text" name="name" placeholder="Your name here"/>
+                    </div>
+                	<label><h3>E-mail</h3></label>
+                	<div><input type="text" name="email" placeholder="Your email here" />
+                    </div>
+                	<label><h3>Message</h3></label>
+                	<div ><textarea type="text" name="viewerMessage" / class="form-control" rows="10" placeholder="Type message here"></textarea>
+                	</div>
+                	<p><button id="contactSubmit" type="submit">Submit</button></p>
+                </form>
              </section>
 		</div>
-
-
   		<div class="col-md-4">
 		  <div class="sidebar">
 			  <h3>Connect with Me</h3>
 			    <a href="https://www.linkedin.com/in/john-ryan-sander-600a813a" target="_blank">
-			  	  <img class="linkedin" src="assets/images/linkedin.png" alt="LinkedIn"></a>
-
+			  	  <img class="linkedin" src="assets/images/linkedin.png" alt="LinkedIn">
+                </a>
 			  	<a href="https://github.com/jrs112" target="_blank">
 			  	  <img class="github" src="assets/images/github.png" alt="Github">
 			  	</a>
-
 			  	<a href="http://stackoverflow.com/users/7515901/jsander112?tab=profile" target="_blank">
 			  	  <img class="stackoverflow" src="assets/images/stackoverflow.png" alt="stackoverflow">
-			  	 </a>
-
+			    </a>
    		   </div>
-   		 </div>
-
+   		</div>
 	</div>
 </div>
 </div>
@@ -82,6 +81,7 @@
 		</div>
 	</div>
 <script type="text/javascript" src="assets/javascript/portfolio.js"></script>
+<script type="text/javascript" src="assets/javascript/submission.js"></script>
 </body>
 
 </html>

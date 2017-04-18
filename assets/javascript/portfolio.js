@@ -1,6 +1,6 @@
-$("#contactSubmit").on("click", function() {
-    alert("Thank you for reaching out to me.  I'll follow up with you shortly.");
-});
+// $("#contactSubmit").on("click", function() {
+//     alert("Thank you for reaching out to me.  I'll follow up with you shortly.");
+// });
 
 $(".firstProject").hover(
     function() {
