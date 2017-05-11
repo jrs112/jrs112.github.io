@@ -6,7 +6,7 @@ $(".firstProject").hover(
     function() {
         $("#firstProjectContent").html("<h5>A website that allows you to search for recipes based on the ingredients you already have or want to use." +
         " You can also find details of restraunts and grocery stores in your area and filter them by travel time." +
-        " This website uses HTML, CSS, Bootstrap, JavaScript, JQUERY, FireBase, Google Maps API, Edamame Recipe API.</h5>");
+        " This website uses HTML, CSS, Bootstrap, JavaScript, JQUERY, FireBase, Google Maps API, and the Edamame Recipe API.</h5>");
     }
     ,function() {
         $("#firstProjectContent").html("");
