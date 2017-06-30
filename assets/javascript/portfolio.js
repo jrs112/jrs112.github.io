@@ -40,3 +40,13 @@ $(".fourthProject").hover(
     ,function() {
         $("#fourthProjectContent").html("");
     });
+
+$(".fifthProject").hover(
+    function() {
+        $("#fifthProjectContent").html("<h5>This is a website that can display the current articles and videos from different sporting news sites at the click of a button.  " +
+                                        "Users can also leave notes for articles of their choice and view notes created by other users for each article.  " +
+                                        "This site uses: HTML, CSS, Bootstrap, JavaScript, JQUERY, Node.js, Express.js, MongoDB, Mongoose, Handlebars.js, and Cheerio.js.</h5>");
+    }
+    ,function() {
+        $("#fifthProjectContent").html("");
+    });
